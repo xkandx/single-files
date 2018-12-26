@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class MSTDisjointSet
 {
-
     static final int MAX_NUM_WAGONS = 10;
     static int numCity;
     static int numRoad;
@@ -147,7 +146,6 @@ public class MSTDisjointSet
 
 class DisjointSet
 {
-
     // tracking the depth of the tree
     private static int depth;
 
@@ -209,7 +207,6 @@ class DisjointSet
  
 class Road implements Comparable<Road>
 {
-
     private final int city1;
     private final int city2;
     private final int cost;
